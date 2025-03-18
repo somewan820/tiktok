@@ -1,0 +1,23 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=tiktok
+      - MYSQL_USER=rootUser
+      - MYSQL_PASSWORD=rootUser
+      - MYSQL_RANDOM_ROOT_PASSWORD="yes"
+  consul:
+    image: 'hashicorp/consul'
+    ports:
+      - 8500:8500
+  redis:
+    image: 'redis:latest'
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
