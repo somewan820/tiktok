@@ -1,0 +1,1 @@
+module github.com/somewan820/tiktok/app/frontend
