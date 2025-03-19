@@ -6,6 +6,8 @@ import (
 	"context"
 	"time"
 
+	"app/frontend/biz/router"
+	"app/frontend/conf"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/app/middlewares/server/recovery"
 	"github.com/cloudwego/hertz/pkg/app/server"
@@ -17,8 +19,6 @@ import (
 	"github.com/hertz-contrib/logger/accesslog"
 	hertzlogrus "github.com/hertz-contrib/logger/logrus"
 	"github.com/hertz-contrib/pprof"
-	"github.com/somewan820/tiktok/app/frontend/biz/router"
-	"github.com/somewan820/tiktok/app/frontend/conf"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 )

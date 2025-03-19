@@ -1,8 +1,8 @@
 package dal
 
 import (
-	"github.com/somewan820/tiktok/app/frontend/biz/dal/mysql"
-	"github.com/somewan820/tiktok/app/frontend/biz/dal/redis"
+	"app/frontend/biz/dal/mysql"
+	"app/frontend/biz/dal/redis"
 )
 
 func Init() {

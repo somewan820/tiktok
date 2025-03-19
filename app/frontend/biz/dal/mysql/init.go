@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"github.com/somewan820/tiktok/app/frontend/conf"
+	"app/frontend/conf"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

@@ -3,8 +3,8 @@ package redis
 import (
 	"context"
 
+	"app/frontend/conf"
 	"github.com/redis/go-redis/v9"
-	"github.com/somewan820/tiktok/app/frontend/conf"
 )
 
 var RedisClient *redis.Client
